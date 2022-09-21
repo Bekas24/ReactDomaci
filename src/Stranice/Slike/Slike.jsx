@@ -11,6 +11,7 @@ function Slike() {
         "https://picsum.photos/id/1019/612/612",
         
     ];
+    //Test
     const [korpa,setKorpa]=useState([]);
     function unesiNoviElement(link){
         setKorpa([...korpa,link]);
