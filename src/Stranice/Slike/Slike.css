@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#slike{
+    margin-top: 50px;
+    background: url("prod.jpg") no-repeat;
+    background-size: cover;
+}
+.galerija{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.naslovi{
+    margin-top: 200px;
+    margin-bottom: 30px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 45px;
+    background-color: rgb(83, 130, 158);
+}
