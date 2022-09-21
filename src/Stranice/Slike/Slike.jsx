@@ -33,7 +33,7 @@ function Slike() {
             <h1 className='naslovi'>Dodato u plan</h1>
             <div className='galerija'>
                 { korpa.map((slika)=>(
-                    <KarticaSlika key={++i1} slika={slika} naslov={"Dodato u plan putovanja"} opis={"Performanse Automobila"} funkcija={izbaciElement} dugme={"Izbaci iz korpe"}/>
+                    <KarticaSlika key={++i1} slika={slika} naslov={"Dodato u plan putovanja"} opis={"Performanse Automobila"} funkcija={izbaciElement} dugme={"Izbaci iz plana"}/>
                 ))}
             </div>
         </div>
